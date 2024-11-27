@@ -326,7 +326,9 @@ z-index: 2;
 width: 100%;
 position: fixed !important;
 // background: transparent !important;
-background: #ffffff47 !important;
+// background: #ffffff47 !important;
+background: #ffff !important;
+
   padding: {
       top: 10px;
       bottom: 10px;
@@ -385,7 +387,8 @@ background: #ffffff47 !important;
               padding-left: 0;
           }
           .nav-link {
-              color: var(--whiteColor);
+              // color: var(--whiteColor);
+              color: var(--mainColor);
               position: relative;
               cursor: pointer;
               font-weight: 500;
@@ -555,7 +558,7 @@ position: relative;
       top: 0;
       width: 100%;
       height: 100%;
-      background: var(--blackColor);
+      // background: var(--blackColor);
       opacity: .58;
   }
   &.gradient-bg {
@@ -581,7 +584,7 @@ background-image: url(./assets/images/banners/Landing-3.jpg);
   position: relative;
   text-align: center;
   z-index: 1;
-  background-color: #ffffff38;
+  // background-color: #ffffff38;
 
   h4 {
       color: var(--whiteColor);
@@ -601,7 +604,7 @@ background-image: url(./assets/images/banners/Landing-3.jpg);
           size: 55px;
       };
       span {
-            color: #203E78;
+            // color: #203E78;
           // color: #ff2c57;
           font-weight: 600;
       }
@@ -718,6 +721,470 @@ background-image: url(./assets/images/banners/Landing-3.jpg);
   bottom: 0;
 }
 
+/*==============================
+About Area CSS
+==============================*/
+
+.about-banner {
+  height: 850px;
+  position: relative;
+    overflow: hidden;
+    background: {
+        position: center center;
+        size: cover;
+        repeat: no-repeat;
+    };
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        // background: var(--blackColor);
+        opacity: .58;
+    }
+    &.gradient-bg {
+        &::before {
+            background: linear-gradient(90deg, #232021 0, #0093c8);
+            opacity: .80;
+        }
+    }
+  }
+  .item-bg {
+  background-image: url(./assets/images/banners/About-Us.jpg);
+  }
+
+
+.about-area {
+  position: relative;
+  z-index: 1;
+  background: {
+      // image: url(./assets/images/banners/about.jpg);
+      position: center center;
+      size: cover;
+      repeat: no-repeat;
+  };
+}
+.about-content {
+  .section-title {
+      margin-bottom: 20px;
+      padding-left: 0;
+
+      &::before, &::after {
+          display: none;
+      }
+      h2 {
+          font-size: 23px;
+      }
+      p {
+          font-size: 15.5px;
+      }
+  }
+  .features-list {
+      margin-bottom: 10px;
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+          margin-bottom: 10px;
+          color: #727695;
+          flex: 0 0 50%;
+          max-width: 50%;
+          font: {
+              size: 15.5px;
+          };
+          i {
+              color: var(--mainColor);
+              margin-right: 7px;
+          }
+      }
+  }
+}
+.about-video {
+  position: relative;
+
+  .video-btn {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      transform: translateY(-50%);
+
+      button {
+          position: relative;
+          display: inline-block;
+          width: 90px;
+          height: 90px;
+          border: none;
+          transition: var(--transition);
+          line-height: 92px;
+          background-color: var(--whiteColor);
+          border-radius: 50%;
+          color: var(--mainColor);
+          z-index: 1;
+          font-size: 35px;
+
+          &::after, &::before {
+              content: '';
+              display: block;
+              position: absolute;
+              top: 0;
+              right: 0;
+              z-index: -1;
+              bottom: 0;
+              left: 0;
+              border-radius: 50%;
+              border: 1px solid var(--whiteColor);
+          }
+          &::before {
+              animation: ripple 2s linear infinite
+          }
+          &::after {
+              animation: ripple 2s linear 1s infinite
+          }
+          &:hover {
+              background-color: var(--mainColor);
+              color: var(--whiteColor);
+          }
+      }
+  }
+}
+@keyframes pulse-border {
+0% {
+  transform:translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+  opacity:1;
+}
+100% {
+  transform:translateX(-50%) translateY(-50%) translateZ(0) scale(1.2);
+  opacity:0;
+}
+}
+@keyframes ripple {
+  0% {
+      transform: scale(1)
+  }
+  75% {
+      transform: scale(1.75);
+      opacity: 1
+  }
+  100% {
+      transform: scale(2);
+      opacity: 0
+  }
+}
+
+
+
+/*==============================
+Academic Area CSS
+==============================*/
+
+.acadamics-banner {
+  height: 850px;
+  position: relative;
+    overflow: hidden;
+    background: {
+        position: center center;
+        size: cover;
+        repeat: no-repeat;
+    };
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        // background: var(--blackColor);
+        opacity: .58;
+    }
+    &.gradient-bg {
+        &::before {
+            background: linear-gradient(90deg, #232021 0, #0093c8);
+            opacity: .80;
+        }
+    }
+  }
+  .item-bg {
+  background-image: url(./assets/images/banners/Academic.jpg);
+  }
+
+
+.about-area {
+  position: relative;
+  z-index: 1;
+  background: {
+      // image: url(./assets/images/banners/about.jpg);
+      position: center center;
+      size: cover;
+      repeat: no-repeat;
+  };
+}
+.about-content {
+  .section-title {
+      margin-bottom: 20px;
+      padding-left: 0;
+
+      &::before, &::after {
+          display: none;
+      }
+      h2 {
+          font-size: 23px;
+      }
+      p {
+          font-size: 15.5px;
+      }
+  }
+  .features-list {
+      margin-bottom: 10px;
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+          margin-bottom: 10px;
+          color: #727695;
+          flex: 0 0 50%;
+          max-width: 50%;
+          font: {
+              size: 15.5px;
+          };
+          i {
+              color: var(--mainColor);
+              margin-right: 7px;
+          }
+      }
+  }
+}
+.about-video {
+  position: relative;
+
+  .video-btn {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      transform: translateY(-50%);
+
+      button {
+          position: relative;
+          display: inline-block;
+          width: 90px;
+          height: 90px;
+          border: none;
+          transition: var(--transition);
+          line-height: 92px;
+          background-color: var(--whiteColor);
+          border-radius: 50%;
+          color: var(--mainColor);
+          z-index: 1;
+          font-size: 35px;
+
+          &::after, &::before {
+              content: '';
+              display: block;
+              position: absolute;
+              top: 0;
+              right: 0;
+              z-index: -1;
+              bottom: 0;
+              left: 0;
+              border-radius: 50%;
+              border: 1px solid var(--whiteColor);
+          }
+          &::before {
+              animation: ripple 2s linear infinite
+          }
+          &::after {
+              animation: ripple 2s linear 1s infinite
+          }
+          &:hover {
+              background-color: var(--mainColor);
+              color: var(--whiteColor);
+          }
+      }
+  }
+}
+@keyframes pulse-border {
+0% {
+  transform:translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+  opacity:1;
+}
+100% {
+  transform:translateX(-50%) translateY(-50%) translateZ(0) scale(1.2);
+  opacity:0;
+}
+}
+@keyframes ripple {
+  0% {
+      transform: scale(1)
+  }
+  75% {
+      transform: scale(1.75);
+      opacity: 1
+  }
+  100% {
+      transform: scale(2);
+      opacity: 0
+  }
+}
+
+
+/*==============================
+Competitve Area CSS
+==============================*/
+
+.competitve-banner {
+  height: 850px;
+  position: relative;
+    overflow: hidden;
+    background: {
+        position: center center;
+        size: cover;
+        repeat: no-repeat;
+    };
+    &::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        // background: var(--blackColor);
+        opacity: .58;
+    }
+    &.gradient-bg {
+        &::before {
+            background: linear-gradient(90deg, #232021 0, #0093c8);
+            opacity: .80;
+        }
+    }
+  }
+  .item-bg {
+  background-image: url(./assets/images/banners/Competative.jpg);
+  }
+
+
+.about-area {
+  position: relative;
+  z-index: 1;
+  background: {
+      // image: url(./assets/images/banners/about.jpg);
+      position: center center;
+      size: cover;
+      repeat: no-repeat;
+  };
+}
+.about-content {
+  .section-title {
+      margin-bottom: 20px;
+      padding-left: 0;
+
+      &::before, &::after {
+          display: none;
+      }
+      h2 {
+          font-size: 23px;
+      }
+      p {
+          font-size: 15.5px;
+      }
+  }
+  .features-list {
+      margin-bottom: 10px;
+      display: flex;
+      flex-wrap: wrap;
+
+      li {
+          margin-bottom: 10px;
+          color: #727695;
+          flex: 0 0 50%;
+          max-width: 50%;
+          font: {
+              size: 15.5px;
+          };
+          i {
+              color: var(--mainColor);
+              margin-right: 7px;
+          }
+      }
+  }
+}
+.about-video {
+  position: relative;
+
+  .video-btn {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      text-align: center;
+      transform: translateY(-50%);
+
+      button {
+          position: relative;
+          display: inline-block;
+          width: 90px;
+          height: 90px;
+          border: none;
+          transition: var(--transition);
+          line-height: 92px;
+          background-color: var(--whiteColor);
+          border-radius: 50%;
+          color: var(--mainColor);
+          z-index: 1;
+          font-size: 35px;
+
+          &::after, &::before {
+              content: '';
+              display: block;
+              position: absolute;
+              top: 0;
+              right: 0;
+              z-index: -1;
+              bottom: 0;
+              left: 0;
+              border-radius: 50%;
+              border: 1px solid var(--whiteColor);
+          }
+          &::before {
+              animation: ripple 2s linear infinite
+          }
+          &::after {
+              animation: ripple 2s linear 1s infinite
+          }
+          &:hover {
+              background-color: var(--mainColor);
+              color: var(--whiteColor);
+          }
+      }
+  }
+}
+@keyframes pulse-border {
+0% {
+  transform:translateX(-50%) translateY(-50%) translateZ(0) scale(1);
+  opacity:1;
+}
+100% {
+  transform:translateX(-50%) translateY(-50%) translateZ(0) scale(1.2);
+  opacity:0;
+}
+}
+@keyframes ripple {
+  0% {
+      transform: scale(1)
+  }
+  75% {
+      transform: scale(1.75);
+      opacity: 1
+  }
+  100% {
+      transform: scale(2);
+      opacity: 0
+  }
+}
 
 /*==============================
 Contact Area CSS
