@@ -10,18 +10,25 @@ import { CompetitvesComponent } from './components/competitves/competitves.compo
 import { IitJeeComponent } from './components/competitves/iit-jee/iit-jee.component';
 import { NeetComponent } from './components/competitves/neet/neet.component';
 import { BlogComponent } from './components/blog/blog.component';
+import { GalleryComponent } from './components/gallery/gallery.component';
+import { AboutUsInnerComponent } from './components/about-us/about-us-inner/about-us-inner.component';
+import { AcadamicInnerComponent } from './components/acadamics/acadamic-inner/acadamic-inner.component';
+import { CompetitveInnerComponent } from './components/competitves/competitve-inner/competitve-inner.component';
+import { BlogInnerComponent } from './components/blog/blog-inner/blog-inner.component';
 
 const routes: Routes = [
-  {path:'', component:HomeComponent},
-  {path:'about-us', component:AboutUsComponent},
-  {path:'academics', component:AcadamicsComponent},
+  {path:'home', component:HomeComponent},
+  {path:'about-us', component:AboutUsInnerComponent},
+  {path:'academics', component:AcadamicInnerComponent},
   {path:'bipc', component:BipcComponent},
   {path:'mpc', component:MpcComponent},
-  {path:'competitve', component:CompetitvesComponent},
+  {path:'competitve', component:CompetitveInnerComponent},
   {path:'iit-jee', component:IitJeeComponent},
   {path:'neet', component:NeetComponent},
-  {path:'blog', component:BlogComponent},
-  {path:'contact-us', component:ContactUsComponent}
+  {path:'blog', component:BlogInnerComponent},
+  {path:'gallery', component:GalleryComponent},
+  {path:'contact-us', component:ContactUsComponent},
+  { path: '', redirectTo: '/home', pathMatch: 'full' },
 
 ];
 

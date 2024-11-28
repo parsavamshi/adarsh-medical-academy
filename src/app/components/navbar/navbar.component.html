@@ -13,15 +13,191 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><span class="nav-link" (click)="onClick('home')">Home</span></li>
+              <!-- <li class="nav-item"><span class="nav-link" (click)="onClick('home')">Home</span></li>
               <li class="nav-item"><span class="nav-link" routerLink="about-us">About us</span></li>
               <li class="nav-item"><span class="nav-link" routerLink="academics">Acadamics</span></li>
-              <li class="nav-item"><span class="nav-link" routerLink="competitve">Competitves</span></li>
+              <li class="nav-item"><span class="nav-link" routerLink="competitve">Competitves</span></li> -->
               <!-- <li class="nav-item"><span class="nav-link" (click)="onClick('work')">Work</span></li>
               <li class="nav-item"><span class="nav-link" (click)="onClick('pricing')">Pricing</span></li> -->
-              <li class="nav-item"><span class="nav-link" routerLink="blog">Blog</span></li>
-              <li class="nav-item"><span class="nav-link" routerLink="contact-us">Contact</span></li>
+              <!-- <li class="nav-item"><span class="nav-link" routerLink="blog">Blog</span></li>
+              <li class="nav-item"><span class="nav-link" routerLink="contact-us">Contact</span></li> -->
+
+
           </ul>
+
+          <ul class="navbar-nav ml-auto align-items-center">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                routerLink="home"
+                routerLinkActive="active"
+                (click)="scrollToTop()"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                routerLink="about-us"
+                routerLinkActive="active"
+                (click)="scrollToTop()"
+                >About us</a
+              >
+            </li>
+            <li class="nav-item dropdown-link1 dropdown-nav submenu-parent">
+              <div class="dropdown">
+                <span
+                  class="nav-link dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  routerLink="academics"
+                  routerLinkActive="active"
+                  (click)="scrollToTop()"
+                >
+                Acadamic
+                </span>
+                <div
+                  class="dropdown-menu dropdown-menu-1"
+                  aria-labelledby="dropdownMenuButton1  "
+
+                >
+                <ul>
+                  <li>
+                    <a
+                      class="nav-link"
+                      rel="ugc"
+                      routerLink="/mpc"
+                      routerLinkActive="active"
+                      (click)="scrollToTop()"
+                      >MPC</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="nav-link link2"
+                      rel="ugc"
+                      routerLink="/bipc"
+                      routerLinkActive="active"
+                      (click)="scrollToTop()"
+                      >BiPC</a
+                    >
+                  </li>
+                </ul>
+                  <!-- <div class="d-flex">
+                    <div class="col-6">
+
+                    </div>
+                  </div> -->
+                </div>
+
+              </div>
+            </li>
+            <li class="nav-item dropdown-link2 dropdown-nav submenu-parent">
+              <div class="dropdown">
+                <span
+                  class="nav-link dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  routerLink="competitve"
+                  routerLinkActive="active"
+                  (click)="scrollToTop()"
+                >
+                Competitve
+                </span>
+                <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1 ">
+                  <li>
+                    <a
+                      class="nav-link"
+                      rel="ugc"
+                      routerLink="/iit-jee"
+                      routerLinkActive="active"
+                      (click)="scrollToTop()"
+                      >IIT & JEE</a
+                    >
+                  </li>
+                  <li>
+                    <a
+                      class="nav-link"
+                      rel="ugc"
+                      routerLink="/neet"
+                      routerLinkActive="active"
+                      (click)="scrollToTop()"
+                      >NEET</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                routerLink="gallery"
+                routerLinkActive="active"
+                (click)="scrollToTop()"
+                >Gallery</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                aria-current="page"
+                routerLink="blog"
+                routerLinkActive="active"
+                (click)="scrollToTop()"
+                >Blog</a
+              >
+            </li>
+
+            <!-- <li class="nav-item dropdown-link2 dropdown-nav submenu-parent">
+              <div class="dropdown">
+                <span
+                  class="nav-link dropdown-toggle"
+                  type="button"
+                  id="dropdownMenuButton1"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                  routerLink="blog"
+                  routerLinkActive="active"
+                  (click)="scrollToTop()"
+                >
+                Blog
+                </span>
+                <ul class="dropdown-menu " aria-labelledby="dropdownMenuButton1 ">
+                  <li>
+                    <a
+                      class="nav-link"
+                      rel="ugc"
+                      routerLink="/gallery"
+                      routerLinkActive="active"
+                      (click)="scrollToTop()"
+                      >Gallery</a
+                    >
+                  </li>
+                  </ul>
+              </div>
+            </li> -->
+
+
+
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                routerLink="contact-us"
+                routerLinkActive="active"
+                (click)="scrollToTop()"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+
+
           <ul class="navbar-nav ml-auto for-responsive">
               <li class="nav-item"><span class="nav-link" (click)="toggleClass(); onClick('home')">Home</span></li>
               <li class="nav-item"><span class="nav-link" (click)="toggleClass(); onClick('about')">About</span></li>
