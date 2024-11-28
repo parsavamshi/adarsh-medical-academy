@@ -15,6 +15,7 @@ import { AboutUsInnerComponent } from './components/about-us/about-us-inner/abou
 import { AcadamicInnerComponent } from './components/acadamics/acadamic-inner/acadamic-inner.component';
 import { CompetitveInnerComponent } from './components/competitves/competitve-inner/competitve-inner.component';
 import { BlogInnerComponent } from './components/blog/blog-inner/blog-inner.component';
+import { ContactInnerComponent } from './components/contact-us/contact-inner/contact-inner.component';
 
 const routes: Routes = [
   {path:'home', component:HomeComponent},
@@ -22,12 +23,12 @@ const routes: Routes = [
   {path:'academics', component:AcadamicInnerComponent},
   {path:'bipc', component:BipcComponent},
   {path:'mpc', component:MpcComponent},
-  {path:'competitve', component:CompetitveInnerComponent},
+  {path:'competitive', component:CompetitveInnerComponent},
   {path:'iit-jee', component:IitJeeComponent},
   {path:'neet', component:NeetComponent},
   {path:'blog', component:BlogInnerComponent},
   {path:'gallery', component:GalleryComponent},
-  {path:'contact-us', component:ContactUsComponent},
+  {path:'contact-us', component:ContactInnerComponent},
   { path: '', redirectTo: '/home', pathMatch: 'full' },
 
 ];
