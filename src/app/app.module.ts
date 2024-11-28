@@ -22,7 +22,7 @@ import { BlogComponent } from './components/blog/blog.component';
 import { BlogDetailsComponent } from './components/blog-details/blog-details.component';
 import { SubscribeComponent } from './components/subscribe/subscribe.component';
 import { GalleryComponent } from './components/gallery/gallery.component';
-import { StickyNavModule } from 'ng2-sticky-nav';
+// import { StickyNavModule } from 'ng2-sticky-nav';
 import { AboutUsInnerComponent } from './components/about-us/about-us-inner/about-us-inner.component';
 import { AcadamicInnerComponent } from './components/acadamics/acadamic-inner/acadamic-inner.component';
 import { CompetitveInnerComponent } from './components/competitves/competitve-inner/competitve-inner.component';
