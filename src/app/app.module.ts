@@ -3,6 +3,7 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -28,6 +29,8 @@ import { AcadamicInnerComponent } from './components/acadamics/acadamic-inner/ac
 import { CompetitveInnerComponent } from './components/competitves/competitve-inner/competitve-inner.component';
 import { BlogInnerComponent } from './components/blog/blog-inner/blog-inner.component';
 import { ContactInnerComponent } from './components/contact-us/contact-inner/contact-inner.component';
+import { StickyNavModule } from 'ng2-sticky-nav';
+import { StickyModule } from 'ngx-sticky-kit';
 
 
 @NgModule({
@@ -56,10 +59,11 @@ import { ContactInnerComponent } from './components/contact-us/contact-inner/con
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     CarouselModule,
     FormsModule,
-    // StickyNavModule
+    StickyModule
 
 
   ],

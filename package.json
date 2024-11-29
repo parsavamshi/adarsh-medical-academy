@@ -25,6 +25,7 @@
     "lightgallery": "^2.8.1",
     "ng2-sticky-nav": "^10.0.0",
     "ngx-owl-carousel-o": "^18.0.0",
+    "ngx-sticky-kit": "^17.0.0",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"

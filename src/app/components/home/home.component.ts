@@ -20,7 +20,7 @@ export class HomeComponent {
   homeSlides: OwlOptions = {
   loop: true,
   nav: true,
-  dots: false,
+  dots: true,
   autoplayHoverPause: true,
   items: 1,
   autoHeight: true,
