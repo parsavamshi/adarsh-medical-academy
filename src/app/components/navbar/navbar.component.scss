@@ -1,11 +1,11 @@
-.brandlogo1{
-  width: 260px !important;
-  height: 55px;
-  padding: 2px 0;
-}
-.logo1{
-  display: none !important;
-}
+// .brandlogo1{
+//   width: 100% !important;
+//   height: 100%;
+//   padding: 2px 0;
+// }
+// .logo1{
+//   display: none !important;
+// }
 
 // ul img{
 //   width: 50px;
@@ -79,14 +79,16 @@
   padding: 2px 0;
   // line-height: 0;
   text-align: center;
+ border-bottom: 1px solid #000;
+
 }
 .dropdown-menu li a{
  font-size: 13px;
 //  color: #0e2b5c;
 // color: #526D82;
-color: 203E78;
+color: #203E78 !important;
  text-decoration: none;
- display: block;
+ display: inline-block;
  font-weight: 600;
 }
 .nav-item{
@@ -144,9 +146,11 @@ color: 203E78;
 }
 .navbar-light .navbar-nav .nav-item .nav-link {
     font-size: 13px !important;
-    display: block;
+    // display: block;
 }
-
+.navbar .nav-item .dropdown-menu{
+  display: none;
+}
 }
 
 
@@ -213,4 +217,28 @@ color: 203E78;
 
 .navbar {
   transition: all 0.3s ease-in-out;
+  // border-bottom: 1px solid red;
+}
+
+
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  background-color: blue;
+  transition: all 0.3s ease-in-out;
+
+  &.scrolled {
+    background-color: red;
+  }
+
+  .navbar-content {
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+  }
 }

@@ -250,81 +250,114 @@ $value_seven: 1550px;
   .about-banner{
     height: 100%;
     padding: {
-        top: 175px;
-        bottom: 120px;
+        top: 92px;
+        bottom: 10px;
     };
+
+  }
+  .item-bg{
+    margin-top: 60px;
   }
   .acadamics-banner{
     height: 100%;
     padding: {
-        top: 175px;
+        top: 92px;
         bottom: 10px;
     };
-    margin-top: 14%;
+
+  }
+  .item-bg-acadamics{
+    margin-top: 60px;
   }
   .mpc-banner{
     height: 100%;
     padding: {
-        top: 175px;
+        top: 92px;
         bottom: 10px;
     };
-    margin-top: 14%;
   }
+  .item-bg-mpc{
+    margin-top: 60px;
+  }
+
+  .item-bg-competative{
+    margin-top: 60px;
+  }
+
   .bipc-banner{
     height: 100%;
     padding: {
-        top: 175px;
+        top: 92px;
         bottom: 10px;
     };
-    margin-top: 14%;
+
   }
+  .item-bg-bipc{
+margin-top: 60px;
+  }
+
   .competitve-banner{
     height: 100%;
     padding: {
-        top: 175px;
+        top: 92px;
         bottom: 10px;
     };
-    margin-top: 14%;
+
   }
+  .item-bg-competitve{
+    margin-top: 60px;
+  }
+
   .iit-jee-banner{
     height: 100%;
     padding: {
-        top: 175px;
+        top: 92px;
         bottom: 10px;
     };
-    margin-top: 14%;
+  }
+  .item-bg-iit-jee{
+    margin-top: 60px;
   }
   .neet-banner{
     height: 100%;
     padding: {
-        top: 175px;
+        top: 92px;
         bottom: 10px;
     };
-    margin-top: 14%;
   }
+  .item-bg-neet{
+    margin-top: 60px;
+  }
+
   .gallery-banner{
     height: 100%;
     padding: {
-        top: 175px;
+        top: 92px;
         bottom: 10px;
     };
-    margin-top: 14%;
+  }
+  .item-bg-gallery{
+    margin-top: 60px;
   }
   .blog-banner{
     height: 100%;
     padding: {
-        top: 175px;
+        top: 92px;
         bottom: 10px;
     };
-    margin-top: 14%;
+  }
+  .item-bg-blog{
+    margin-top: 60px;
   }
   .contact-banner{
     height: 100%;
     padding: {
-        top: 108px;
+        top: 92px;
         bottom: 10px;
     };
-    margin-top: 14%;
+  }
+  .item-bg-contact{
+    margin-top: 60px;
   }
 
   // .acadamic-content {
@@ -737,6 +770,121 @@ $value_seven: 1550px;
       .container-fluid {
           max-width: 540px;
       }
+  }
+
+
+
+  .about-banner{
+    height: 100%;
+    padding: {
+        top: 198px;
+        bottom: 10px;
+    };
+
+  }
+  .item-bg{
+    margin-top: 60px;
+  }
+  .acadamics-banner{
+    height: 100%;
+    padding: {
+        top: 198px;
+        bottom: 10px;
+    };
+
+  }
+  .item-bg-acadamics{
+    margin-top: 60px;
+  }
+  .mpc-banner{
+    height: 100%;
+    padding: {
+        top: 198px;
+        bottom: 10px;
+    };
+  }
+  .item-bg-mpc{
+    margin-top: 60px;
+  }
+
+  .item-bg-competative{
+    margin-top: 60px;
+  }
+
+  .bipc-banner{
+    height: 100%;
+    padding: {
+        top: 198px;
+        bottom: 10px;
+    };
+
+  }
+  .item-bg-bipc{
+margin-top: 60px;
+  }
+
+  .competitve-banner{
+    height: 100%;
+    padding: {
+        top: 198px;
+        bottom: 10px;
+    };
+
+  }
+  .item-bg-competitve{
+    margin-top: 60px;
+  }
+
+  .iit-jee-banner{
+    height: 100%;
+    padding: {
+        top: 198px;
+        bottom: 10px;
+    };
+  }
+  .item-bg-iit-jee{
+    margin-top: 60px;
+  }
+  .neet-banner{
+    height: 100%;
+    padding: {
+        top: 198px;
+        bottom: 10px;
+    };
+  }
+  .item-bg-neet{
+    margin-top: 60px;
+  }
+
+  .gallery-banner{
+    height: 100%;
+    padding: {
+        top: 198px;
+        bottom: 10px;
+    };
+  }
+  .item-bg-gallery{
+    margin-top: 60px;
+  }
+  .blog-banner{
+    height: 100%;
+    padding: {
+        top: 198px;
+        bottom: 10px;
+    };
+  }
+  .item-bg-blog{
+    margin-top: 60px;
+  }
+  .contact-banner{
+    height: 100%;
+    padding: {
+        top: 108px;
+        bottom: 10px;
+    };
+  }
+  .item-bg-contact{
+    margin-top: 60px;
   }
 
 }

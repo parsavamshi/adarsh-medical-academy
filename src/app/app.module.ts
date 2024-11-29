@@ -30,7 +30,7 @@ import { CompetitveInnerComponent } from './components/competitves/competitve-in
 import { BlogInnerComponent } from './components/blog/blog-inner/blog-inner.component';
 import { ContactInnerComponent } from './components/contact-us/contact-inner/contact-inner.component';
 import { StickyNavModule } from 'ng2-sticky-nav';
-import { StickyModule } from 'ngx-sticky-kit';
+// import { StickyModule } from 'ngx-sticky-kit';
 
 
 @NgModule({
@@ -63,7 +63,7 @@ import { StickyModule } from 'ngx-sticky-kit';
     AppRoutingModule,
     CarouselModule,
     FormsModule,
-    StickyModule
+    // StickyModule
 
 
   ],

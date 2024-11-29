@@ -1,127 +1,21 @@
-// .welcome{
-//   padding: 20px  0!important;
-//   // background-color: ;
+// .home{
+//   margin-top: 10vh;
 // }
-// .welcome-titel{
-//   margin: 4rem 0;
-//   text-align: center;
-// h1{
-//   font-weight: 400 !important;
-//   font-size: 40px !important;
-// }
-// }
-// .marketing{
-//   .single-box:hover {
-//     transform: translateY(-5px);
-//     // background-color: #1F8ECB;
-//     background-color: #FDD300;
-//     // background-color: #0e2b5c;
-//     // box-shadow: 0px 8px 16px 0px rgb(146 184 255 / 20%);
-//     box-shadow: 1px 4px 10px rgb(0 0 0 / 0.2);
-//     border-radius: 6px;
-//     i{
-//       // color: #E4722E;
-//       // border-color: #E4722E;
-//       // color: #E4722E;
-//       color: #203E78;
-//       // border-color: #E4722E;
-//       background-color: #fff;
-//     }
-//     p{
-//       color: #203E78;
-//     }
-//     h2{
-//       color: #203E78;
-//     }
-//     .btn{
-//       background-color: #fff;
-//       // color: #E4722E;
-//       color: #203E78;
-//       // border-color: #E4722E;
-//       visibility: visible;
-//     }
+
+// .section1{
+//   // background-image: url(../../../assets/images/banners/bg2.jpg);
+//   .academic{
+// // background-color: lightblue;
 //   }
-// .single-box {
-//   text-align: center;
-//   padding: 30px 20px;
-//   position: relative;
-//   overflow: hidden;
-//   width: 100%;
-//   transition: .5s;
-//   margin-bottom: 30px;
-//   // border: 2px solid #e7eaeb;
-//   border-radius: 3px;
-//   box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
-//   i{
-//     font-size: 34px;
-//     border: 1px solid #333;
-//     border-radius: 50%;
-//     padding:14px 17.3px;
-//     margin: 14px 0;
-//     // color: #E4722E;
-//     // border-color: #E4722E;
-//     color: #203E78;
-//     // color: #0e2b5c;
-//     // border-color: #0e2b5c;
-//     border-color: #203E78;
+//   .competitive{
+//     // background-color: #F7F5F4;
+
 //   }
-//   h2{
-//     margin: 5px 0;
-//     font-size: 26px;
-//     font-weight: 600 !important;
-//   }
-//   .btn{
-//     // color: #1F8ECB;
-//     // border-color: #1F8ECB;
-//     color: #1F8ECB;
-//     // display: none;
-//     font-size: 14px;
-//     font-weight: bold;
-//     visibility: hidden;
-//     &:hover{
-//       color: #fff;
-//       // border-color: #;
-//       background-color: #203E78;
-
-
-//     }
-//   }
-
 // }
-// }
-
-// p {
-//   font-size: 15px;
-// }
-
-
-// // icons
-// .global-presence{
-//   padding: 14px 16px !important;
-// }
-
-// .core-values{
-//   padding:14px 11.3px !important;
-// }
-// .careers{
-//   padding:14px 12px !important;
-// }
-
-
-.section1{
-  // background-image: url(../../../assets/images/banners/bg2.jpg);
-  .academic{
-// background-color: lightblue;
-  }
-  .competitive{
-    background-color: #F7F5F4;
-
-  }
-}
 
 .acadamic{
 
-  padding: 60px  10px !important;
+  padding: 50px  10px !important;
   // background-color: lightgray;
   .welcome-titel{
     margin: 4rem 0;
@@ -134,8 +28,8 @@
   .marketing{
     .single-box:hover {
       transform: translateY(-5px);
-      // background-color: #1F8ECB;
-      background-color: #FDD300;
+      background-color: var(--mainColor);
+      // background-color: #FDD300;
       // background-color: #0e2b5c;
       // box-shadow: 0px 8px 16px 0px rgb(146 184 255 / 20%);
       box-shadow: 1px 4px 10px rgb(0 0 0 / 0.2);
@@ -143,16 +37,18 @@
       i{
         // color: #E4722E;
         // border-color: #E4722E;
-        // color: #E4722E;
-        color: #203E78;
+        color: #ffc448;
+        // color: #203E78;
         // border-color: #E4722E;
         background-color: #fff;
       }
       p{
-        color: #203E78;
+        // color: #203E78;
+        color: #FDD300;
       }
       h2{
-        color: #203E78;
+        // color: #203E78;
+        color: #FDD300;
       }
       .btn{
         background-color: #fff;
@@ -202,7 +98,7 @@
       &:hover{
         color: #fff;
         // border-color: #;
-        background-color: #203E78;
+        background-color: #ffc448;
 
 
       }
@@ -231,7 +127,8 @@
 }
 
 .competitive{
-  padding: 60px  10!important;
+  background-color: #F7F5F4;
+  padding: 50px  10px  20px !important;
   // background-color: lightgray;
   .welcome-titel{
     margin: 4rem 0;
@@ -245,7 +142,8 @@
     .single-box:hover {
       transform: translateY(-5px);
       // background-color: #1F8ECB;
-      background-color: #FDD300;
+      // background-color: #FDD300;
+      background-color: #ffc448;
       // background-color: #0e2b5c;
       // box-shadow: 0px 8px 16px 0px rgb(146 184 255 / 20%);
       box-shadow: 1px 4px 10px rgb(0 0 0 / 0.2);
@@ -283,6 +181,7 @@
     // border: 2px solid #e7eaeb;
     border-radius: 3px;
     box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
+    background: #ffffff;
     i{
       font-size: 34px;
       border: 1px solid #333;
@@ -345,3 +244,25 @@
 .partner-area{
   background-color: #ffc448;
 }
+
+.funfacts{
+background-color: #ffc448;
+padding: 60px 0;
+  .single-blog-item{
+    height: 15vh;
+    border-radius: 5px;
+    &:hover{
+      a{
+        color: #ffc448 !important;
+      }
+    }
+  }
+}
+
+
+
+
+// .home {
+//   height: 2000px; /* Add scrollable content */
+//   padding-top: 50px; /* Offset for the sticky navbar */
+// }
