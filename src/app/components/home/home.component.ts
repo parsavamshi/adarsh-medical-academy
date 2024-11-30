@@ -86,7 +86,7 @@ export class HomeComponent {
     nav: false,
     dots: true,
     autoplayHoverPause: true,
-    autoplay: false,
+    autoplay: true,
     margin: 30,
     navText: [
       "<i class='fa fa-angle-left'></i>",
@@ -104,4 +104,33 @@ export class HomeComponent {
       }
     }
     }
+
+
+
+    reviewSlides: OwlOptions = {
+      loop: true,
+      nav: false,
+      dots: true,
+      autoplayHoverPause: true,
+      autoplay: true,
+      margin: 30,
+      autoplayTimeout: 5000, // Increase this value for a slower slide transition
+      smartSpeed: 1800,
+      navSpeed: 2000,
+      navText: [
+        "<i class='fa fa-angle-left'></i>",
+        "<i class='fa fa-angle-right'></i>"
+      ],
+      responsive: {
+        0: {
+          items: 1,
+        },
+        768: {
+          items: 2,
+        },
+        1200: {
+          items: 3,
+        }
+      }
+      }
 }

@@ -76,9 +76,9 @@
 
 }
 .dropdown-menu li{
-  padding: 2px 0;
+  padding: 2px 16px;
   // line-height: 0;
-  text-align: center;
+  text-align: start;
  border-bottom: 1px solid #000;
 
 }
@@ -242,3 +242,127 @@ color: #203E78 !important;
     color: white;
   }
 }
+
+
+
+
+
+
+
+.navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: all 0.3s ease-in-out;
+
+  .submenu-parent {
+    position: relative;
+
+    .dropdown-toggle {
+      cursor: pointer;
+    }
+
+    /* Submenu container */
+    .dropdown-menu {
+      position: absolute;
+      top: 100%;
+      left: 0;
+      opacity: 0; /* Initially hidden */
+      visibility: hidden; /* Prevent interaction when hidden */
+      transition: opacity 0.7s ease-in-out, visibility 0.7s ease-in-out !important; /* Smooth fade effect */
+      background-color: white; /* Optional: customize submenu background */
+      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1) !important;
+      padding: 10px;
+      // border-radius: 5px;
+      // min-width: 200px;
+      border: none;
+      border-top: 1px solid var(--mainColor);
+      border-radius: 0;
+      width: max-content !important;
+
+
+    }
+     /* Submenu Items */
+     a.nav-link {
+      // color: #333 !important; /* Default text color for submenu items */
+      transition: color 0.3s ease-in-out !important;
+      text-align: left !important;
+      display: block;
+      padding: 2px;
+    }
+
+    li:hover {
+      background-color: #FDD300 !important; /* Change color on hover */
+      a.nav-link{
+        color:var(--mainColor) !important;
+      }
+    }
+    li:nth-child(2) {
+      // background-color: lightgreen;
+      border: none !important;
+    }
+
+    /* Hover to show the submenu */
+    &:hover .dropdown-menu {
+      opacity: 1; /* Fully visible */
+      visibility: visible; /* Allow interaction */
+
+    }
+
+    /* Fade-out effect when hover ends */
+    &:not(:hover) .dropdown-menu {
+      opacity: 0; /* Gradually hidden */
+      visibility: hidden; /* Disable interaction */
+    }
+  }
+}
+
+
+// .navbar {
+//   position: sticky;
+//   top: 0;
+//   z-index: 1000;
+//   transition: all 0.3s ease-in-out;
+
+//   .dropdown {
+//     position: relative;
+
+//     .dropdown-toggle {
+//       cursor: pointer;
+//     }
+
+//     /* Submenu container */
+//     .dropdown-menu {
+//       position: absolute;
+//       top: 100%;
+//       left: 0;
+//       display: block; /* Prevent collapse */
+//       opacity: 0; /* Initially hidden */
+//       transform: translateY(-15px); /* Start slightly higher */
+//       visibility: hidden; /* Prevent interaction when hidden */
+//       transition: opacity 0.7s ease-in-out, transform 0.7s ease-in-out, visibility 0.7s ease-in-out;
+//       background-color: white; /* Optional: customize submenu background */
+//       box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+//       padding: 10px;
+//       border-radius: 5px;
+//       min-width: 200px;
+
+//       /* Submenu Items */
+//       a.nav-link {
+//         color: #333; /* Default text color for submenu items */
+//         transition: color 0.3s ease-in-out;
+//       }
+
+//       a.nav-link:hover {
+//         color: #007bff; /* Change color on hover */
+//       }
+//     }
+
+//     /* Show the submenu on hover */
+//     &:hover .dropdown-menu {
+//       opacity: 1; /* Fully visible */
+//       transform: translateY(0); /* Move into position */
+//       visibility: visible; /* Allow interaction */
+//     }
+//   }
+// }

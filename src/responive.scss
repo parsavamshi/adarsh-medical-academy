@@ -145,7 +145,7 @@ $value_seven: 1550px;
       .main-banner {
           // padding-bottom: 150px;
           padding-bottom: 10px;
-        margin-top: 14%;
+        // margin-top: 14%;
       }
       .owl-theme {
           .owl-nav {
@@ -265,9 +265,9 @@ $value_seven: 1550px;
     };
 
   }
-  .item-bg{
-    margin-top: 60px;
-  }
+  // .item-bg{
+  //   margin-top: 60px;
+  // }
   .acadamics-banner{
     height: 100%;
     padding: {
@@ -276,9 +276,9 @@ $value_seven: 1550px;
     };
 
   }
-  .item-bg-acadamics{
-    margin-top: 60px;
-  }
+  // .item-bg-acadamics{
+  //   margin-top: 60px;
+  // }
   .mpc-banner{
     height: 100%;
     padding: {
@@ -286,13 +286,13 @@ $value_seven: 1550px;
         bottom: 10px;
     };
   }
-  .item-bg-mpc{
-    margin-top: 60px;
-  }
+  // .item-bg-mpc{
+  //   margin-top: 60px;
+  // }
 
-  .item-bg-competative{
-    margin-top: 60px;
-  }
+  // .item-bg-competative{
+  //   margin-top: 60px;
+  // }
 
   .bipc-banner{
     height: 100%;
@@ -302,9 +302,9 @@ $value_seven: 1550px;
     };
 
   }
-  .item-bg-bipc{
-margin-top: 60px;
-  }
+//   .item-bg-bipc{
+// margin-top: 60px;
+//   }
 
   .competitve-banner{
     height: 100%;
@@ -314,9 +314,9 @@ margin-top: 60px;
     };
 
   }
-  .item-bg-competitve{
-    margin-top: 60px;
-  }
+  // .item-bg-competitve{
+  //   margin-top: 60px;
+  // }
 
   .iit-jee-banner{
     height: 100%;
@@ -325,9 +325,9 @@ margin-top: 60px;
         bottom: 10px;
     };
   }
-  .item-bg-iit-jee{
-    margin-top: 60px;
-  }
+  // .item-bg-iit-jee{
+  //   margin-top: 60px;
+  // }
   .neet-banner{
     height: 100%;
     padding: {
@@ -335,9 +335,9 @@ margin-top: 60px;
         bottom: 10px;
     };
   }
-  .item-bg-neet{
-    margin-top: 60px;
-  }
+  // .item-bg-neet{
+  //   margin-top: 60px;
+  // }
 
   .gallery-banner{
     height: 100%;
@@ -346,9 +346,9 @@ margin-top: 60px;
         bottom: 10px;
     };
   }
-  .item-bg-gallery{
-    margin-top: 60px;
-  }
+  // .item-bg-gallery{
+  //   margin-top: 60px;
+  // }
   .blog-banner{
     height: 100%;
     padding: {
@@ -356,9 +356,9 @@ margin-top: 60px;
         bottom: 10px;
     };
   }
-  .item-bg-blog{
-    margin-top: 60px;
-  }
+  // .item-bg-blog{
+  //   margin-top: 60px;
+  // }
   .contact-banner{
     height: 100%;
     padding: {
@@ -366,9 +366,9 @@ margin-top: 60px;
         bottom: 10px;
     };
   }
-  .item-bg-contact{
-    margin-top: 60px;
-  }
+  // .item-bg-contact{
+  //   margin-top: 60px;
+  // }
 
   // .acadamic-content {
   //     .section-title {
@@ -783,7 +783,6 @@ margin-top: 60px;
   }
 
 
-
   .about-banner{
     height: 100%;
     padding: {
@@ -958,7 +957,10 @@ margin-top: 60px;
   }
 
   .main-banner {
-      height: 100%;
+      // height: 100%;
+      height: 478px;
+      // .main-banner{
+      // }
       padding: {
           top: 175px;
           bottom: 120px;
@@ -1198,13 +1200,101 @@ margin-top: 60px;
   .main-banner-text {
       margin-top: 30px;
   }
+  .main-banner{
+    height: 552px;
+  }
+  .about-banner{
+    height: 360px;
 
+
+  }
+  // .item-bg{
+  //   margin-top: 60px;
+  // }
+  .acadamics-banner{
+    height: 360px;
+
+
+  }
+  // .item-bg-acadamics{
+  //   margin-top: 60px;
+  // }
+  .mpc-banner{
+    height: 360px;
+
+  }
+  // .item-bg-mpc{
+  //   margin-top: 60px;
+  // }
+
+  // .item-bg-competative{
+  //   margin-top: 60px;
+  // }
+
+  .bipc-banner{
+    height: 360px;
+
+
+  }
+//   .item-bg-bipc{
+// margin-top: 60px;
+//   }
+
+  .competitve-banner{
+    height: 360px;
+
+
+  }
+  // .item-bg-competitve{
+  //   margin-top: 60px;
+  // }
+
+  .iit-jee-banner{
+    height: 360px;
+
+  }
+  // .item-bg-iit-jee{
+  //   margin-top: 60px;
+  // }
+  .neet-banner{
+    height: 360px;
+
+  }
+  // .item-bg-neet{
+  //   margin-top: 60px;
+  // }
+
+  .gallery-banner{
+    height: 360px;
+
+  }
+  // .item-bg-gallery{
+  //   margin-top: 60px;
+  // }
+  .blog-banner{
+    height: 360px;
+
+  }
+  // .item-bg-blog{
+  //   margin-top: 60px;
+  // }
+  .contact-banner{
+    height: 360px;
+
+  }
+
+}
+
+@media (min-width:1200px) and (max-width:1549px){
+  .main-banner{
+    height: 706px;
+  }
 }
 
 @media only #{$media} and ($feature_min : $value_seven) {
 
   .main-banner {
-      height: 100vh;
-  }
+    height: 100vh;
+}
 
 }

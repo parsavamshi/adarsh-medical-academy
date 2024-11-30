@@ -9,6 +9,25 @@ Default CSS
   --blackColor: #000000;
   --transition: .5s;
 }
+@font-face {
+  font-family: 'Agenor';
+  src: url('./assets/images/fonts/Agenor-FONTS/Agenor-Regular.ttf');
+}
+@font-face {
+  font-family: 'Lexend';
+  src: url('./assets/images/fonts/Lexend/Lexend-VariableFont_wght.ttf');
+}
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 300 to 900
+
+// .rubik-<uniquifier> {
+//   font-family: "Rubik", sans-serif;
+//   font-optical-sizing: auto;
+//   font-weight: <weight>;
+//   font-style: normal;
+// }
+
 body {
   padding: 0;
   margin: 0;
@@ -384,6 +403,8 @@ transition: all 0.3s ease-in-out;
 &.bg-light.scrolled {
   background-color: var(--mainColor) !important; /* Scrolled navbar color */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+  animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  box-shadow: 0 2px 28px #0000000f
 }
 
 /* Navbar Items */
@@ -392,11 +413,20 @@ transition: all 0.3s ease-in-out;
   transition: color 0.3s ease-in-out;
 }
 
+// .dropdown-menu {
+//   background-color: var(--mainColor) !important;
+//   li a{
+//     color: var(--whiteColor) !important;
+//   }
+// }
 &.scrolled .navbar-nav .nav-link {
   color: var(--whiteColor) !important; /* Scrolled nav text color */
 
-  .dropdown-menu li a{
-    color: #203E78;
+  .dropdown-menu {
+
+    li a{
+      color: #203E78;
+    }
   }
 //   .navbar-light .navbar-nav .nav-item .nav-link
 
@@ -909,7 +939,7 @@ About Area CSS
   }
   .item-bg {
   background-image: url(./assets/images/banners/About-Us.jpg);
-  margin-top: 100px;
+  // margin-top: 100px;
 
   }
 
@@ -1072,7 +1102,7 @@ Academic Area CSS
   }
   .item-bg-acadamics {
   background-image: url(./assets/images/banners/Acadamic-Banner2.jpg);
-  margin-top: 100px;
+  // margin-top: 100px;
   }
 .acadamics-area {
   position: relative;
@@ -1226,7 +1256,7 @@ Competitve Area CSS
   }
   .item-bg-competative {
   background-image: url(./assets/images/banners/Competative-Banner2.jpg);
-  margin-top: 100px;
+  // margin-top: 100px;
   }
 .competative-area {
   position: relative;
@@ -1379,7 +1409,7 @@ bipc Area CSS
   }
   .item-bg-bipc {
   background-image: url(./assets/images/banners/BiPC-Banner2.jpg);
-  margin-top: 100px;
+  // margin-top: 100px;
   }
 .bipc-area {
   position: relative;
@@ -1532,7 +1562,7 @@ mpc Area CSS
   }
   .item-bg-mpc {
   background-image: url(./assets/images/banners/MPC-Banner.jpg);
-  margin-top: 100px;
+  // margin-top: 100px;
   }
 
 
@@ -1688,7 +1718,7 @@ iit-jee Area CSS
   }
   .item-bg-iit-jee {
   background-image: url(./assets/images/banners/IIT-JEE-Banner2.jpg);
-  margin-top: 100px;
+  // margin-top: 100px;
   }
 .iit-jee-area {
   position: relative;
@@ -1841,7 +1871,7 @@ neet Area CSS
   }
   .item-bg-neet {
   background-image: url(./assets/images/banners/NEET-Banner2.jpg);
-  margin-top: 100px;
+  // margin-top: 100px;
   }
 .neet-area {
   position: relative;
@@ -1994,7 +2024,7 @@ Blog Area CSS
   }
   .item-bg-blog {
   background-image: url(./assets/images/banners/Blog-Banner2.jpg);
-  margin-top: 100px;
+  // margin-top: 100px;
   }
 
 .blog-area {
@@ -2008,6 +2038,93 @@ Blog Area CSS
 //   //   repeat: no-repeat;
 // };
 }
+.single-box-item{
+  background-color: #ffff;
+  font-family: 'Agenor';
+  margin: 5rem 0 0;
+  padding: 1rem ;
+  width: 96%;
+  height: 200px;
+  position: relative;
+  padding: 30px;
+  margin-bottom: 30px;
+  z-index: 1;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 30px #43434326;
+  border-radius: 20px;
+  &::before{
+    z-index: -1;
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--whiteColor);
+    transition: var(--transition);
+    border-radius: 10px;
+}
+h3{
+  color: var(--mainColor);
+  padding: 20px 10px;
+  font-weight: 600;
+
+}
+&:hover::before {
+  background: var(--mainColor);
+
+}
+
+&:hover .fa-lightbulb{
+  background-color: var(--mainColor);
+  border-color: var(--whiteColor);
+  color: var(--whiteColor);
+}
+
+  .fa-lightbulb{
+    // color: var(--mainColor);
+    // position: absolute;
+    // top: -50%;
+    // left: 50%;
+    // text-align: center;
+    // font-size: 50px;
+    // background-color: var(--whiteColor);
+    // padding:  20px;
+    // width: 100px;
+    // height: 100px;
+    // border: 3px solid var(--mainColor);
+    // border-radius: 50% ;
+    // transition: var(--transition);
+    color: var(--mainColor);
+    position: absolute;
+    /* top: -26%; */
+    left: 40%;
+    text-align: center;
+    font-size: 50px;
+    background-color: var(--whiteColor);
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    border: 5px solid var(--mainColor);
+    border-radius: 50%;
+    transition: var(--transition);
+    transform: translate(0%, -90%);
+
+  }
+  a{
+    line-height: 32px;
+    // text-shadow: 2px 1px #00000075;
+    font-size: 24px;
+  }
+  &:hover h3 {
+    color: var(--whiteColor) !important;
+    // color: #FDD300 !important;
+}
+}
+
+
 .single-blog-item {
 position: relative;
 padding: 30px;
@@ -2015,6 +2132,8 @@ padding: 30px;
   margin-bottom: 30px;
   z-index: 1;
   overflow: hidden;
+  width: 100%;
+  height: 450px;
   background: {
       size: cover;
       position: center center;
@@ -2035,6 +2154,13 @@ padding: 30px;
   span {
       display: block;
       color: var(--mainColor);
+      img{
+        text-align: center;
+        margin: auto;
+        width: 100px !important;
+        height: 100px;
+        margin-bottom: 10px;
+      }
   }
   span, p, h3 {
       position: relative;
@@ -2042,6 +2168,7 @@ padding: 30px;
   }
   p {
       font-size: 15.5px;
+      text-align: justify;
   }
   h3 {
       line-height: 1.5;
@@ -2232,7 +2359,7 @@ Gallery Area CSS
   }
   .item-bg-gallery {
   background-image: url(./assets/images/banners/Gallery-Banner2.jpg);
-  margin-top: 100px;
+  // margin-top: 100px;
   }
 
 .gallery{
@@ -2278,7 +2405,7 @@ Contact Area CSS
   }
   .item-bg-contact {
   background-image: url(./assets/images/banners/Conatct-Banner2.jpg);
-  margin-top: 100px;
+  // margin-top: 100px;
   }
 
 #map {

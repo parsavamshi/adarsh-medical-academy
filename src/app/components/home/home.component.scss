@@ -65,7 +65,7 @@
     overflow: hidden;
     width: 100%;
     transition: .5s;
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
     // border: 2px solid #e7eaeb;
     border-radius: 3px;
     box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
@@ -177,10 +177,10 @@
     overflow: hidden;
     width: 100%;
     transition: .5s;
-    margin-bottom: 30px;
+    // margin-bottom: 30px;
     // border: 2px solid #e7eaeb;
     border-radius: 3px;
-    box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
+
     background: #ffffff;
     i{
       font-size: 34px;
@@ -260,7 +260,10 @@ padding: 60px 0;
 }
 
 
-
+.review{
+  background-color: lightblue;
+  padding: 100px 0;
+}
 
 // .home {
 //   height: 2000px; /* Add scrollable content */
