@@ -63,6 +63,7 @@ import { StickyNavModule } from 'ng2-sticky-nav';
     AppRoutingModule,
     CarouselModule,
     FormsModule,
+
     // StickyModule
 
 

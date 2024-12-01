@@ -2,6 +2,8 @@
 /*==============================
 Default CSS
 ==============================*/
+
+
 :root {
   --fontFamily: 'Poppins', sans-serif;
   --mainColor: #203E78;
@@ -194,7 +196,8 @@ padding-left: 30px;
       }
   }
   p {
-      max-width: 635px;
+      // max-width: 635px;
+      text-align: justify;
       margin-top: -7px;
   }
   h4 {
@@ -401,7 +404,8 @@ transition: all 0.3s ease-in-out;
 }
 
 &.bg-light.scrolled {
-  background-color: var(--mainColor) !important; /* Scrolled navbar color */
+  // background-color: var(--mainColor) !important; /* Scrolled navbar color */
+  background-color: #002147 !important; /* Scrolled navbar color */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Add shadow effect */
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   box-shadow: 0 2px 28px #0000000f
@@ -948,7 +952,8 @@ About Area CSS
   position: relative;
   z-index: 1;
   background: {
-      image: url(./assets/images/banners/shape1.png);
+      // image: url(./assets/images/banners/shape1.png);
+      // image: url(./assets/images/);
       position: center center;
       size: cover;
       repeat: no-repeat;
@@ -2041,13 +2046,13 @@ Blog Area CSS
 .single-box-item{
   background-color: #ffff;
   font-family: 'Agenor';
-  margin: 5rem 0 0;
+  // margin: rem 0 0;
   padding: 1rem ;
-  width: 96%;
-  height: 200px;
+  width: 100%;
+  height: 150px;
   position: relative;
-  padding: 30px;
-  margin-bottom: 30px;
+  padding: 0 10px 10px;
+  margin: 20px;
   z-index: 1;
   background-size: cover;
   background-position: center center;
@@ -2068,8 +2073,9 @@ Blog Area CSS
 }
 h3{
   color: var(--mainColor);
-  padding: 20px 10px;
-  font-weight: 600;
+    padding: 28px 10px 0;
+    font-weight: 600;
+    padding-left: 28%;
 
 }
 &:hover::before {
@@ -2097,26 +2103,42 @@ h3{
     // border: 3px solid var(--mainColor);
     // border-radius: 50% ;
     // transition: var(--transition);
+    // color: var(--mainColor);
+    // position: absolute;
+    // /* top: -26%; */
+    // left: 40%;
+    // text-align: center;
+    // font-size: 50px;
+    // background-color: var(--whiteColor);
+    // padding: 20px;
+    // width: 100px;
+    // height: 100px;
+    // border: 5px solid var(--mainColor);
+    // border-radius: 50%;
+    // transition: var(--transition);
+    // transform: translate(0%, -90%);
+
     color: var(--mainColor);
     position: absolute;
-    /* top: -26%; */
-    left: 40%;
+    top: 18%;
+    left: 38%;
     text-align: center;
-    font-size: 50px;
+    font-size: 20px;
     background-color: var(--whiteColor);
-    padding: 20px;
-    width: 100px;
-    height: 100px;
+    padding: 10px;
+    width: 50px;
+    height: 50px;
     border: 5px solid var(--mainColor);
     border-radius: 50%;
     transition: var(--transition);
     transform: translate(0%, -90%);
 
+
   }
   a{
-    line-height: 32px;
+    // line-height: 32px;
     // text-shadow: 2px 1px #00000075;
-    font-size: 24px;
+    font-size: 18px;
   }
   &:hover h3 {
     color: var(--whiteColor) !important;
@@ -2126,19 +2148,26 @@ h3{
 
 
 .single-blog-item {
-position: relative;
-padding: 30px;
-  // border: 1px solid #eeeeee;
-  margin-bottom: 30px;
-  z-index: 1;
-  overflow: hidden;
-  width: 100%;
-  height: 450px;
-  background: {
-      size: cover;
-      position: center center;
-      repeat: no-repeat;
-  };
+// position: relative;
+// padding: 30px;
+//   // border: 1px solid #eeeeee;
+//   margin-bottom: 30px;
+//   z-index: 1;
+//   overflow: hidden;
+//   width: 100%;
+//   height: 450px;
+//   background: {
+//       size: cover;
+//       position: center center;
+//       repeat: no-repeat;
+//   };
+border: 1px solid #dadada;
+    padding: 0px 15px 15px 15px;
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    background: #fff;
+    min-height: 400px;
   &::before {
       z-index: -1;
       content: '';

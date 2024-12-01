@@ -112,10 +112,10 @@ export class HomeComponent {
       nav: false,
       dots: true,
       autoplayHoverPause: true,
-      autoplay: true,
+      autoplay: false,
       margin: 30,
       autoplayTimeout: 5000, // Increase this value for a slower slide transition
-      smartSpeed: 1800,
+      smartSpeed: 500,
       navSpeed: 2000,
       navText: [
         "<i class='fa fa-angle-left'></i>",
@@ -133,4 +133,7 @@ export class HomeComponent {
         }
       }
       }
+
+
+
 }
