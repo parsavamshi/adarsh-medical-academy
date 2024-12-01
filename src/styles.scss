@@ -175,7 +175,8 @@ padding-left: 30px;
       transition: var(--transition);
   }
   &::after {
-      left: 0;
+      // left: 0;
+      left: 4px;
       height: 50%;
   }
   &:hover::before {
@@ -233,8 +234,8 @@ textarea.form-control {
   .owl-dots {
       .owl-dot {
           span {
-              width: 15px;
-              height: 15px;
+              width: 10px;
+              height: 10px;
               margin: 0 4px;
               background: transparent;
               border-radius: 50%;
@@ -245,8 +246,8 @@ textarea.form-control {
               span {
                   background: #869791;
                   border-radius: 5px;
-                  width: 35px;
-                  height: 10px;
+                  width: 28px;
+                  height: 8px;
                   border-color: var(--mainColor);
                   background: var(--mainColor);
               }
@@ -911,6 +912,114 @@ background-image: url(./assets/images/banners/Landing-3.jpg);
   right: 50px;
   bottom: 0;
 }
+
+
+/*==============================
+Welcome Area CSS
+==============================*/
+.welcome-area {
+  position: relative;
+  z-index: 1;
+  background-color: gray;
+height: 200px;
+padding: 48px 0;
+}
+.single-box {
+text-align: center;
+box-shadow: 0px 8px 16px 0px rgba(146, 184, 255, 0.2);
+padding: 10px 20px;
+  position: relative;
+  // overflow: hidden;
+  transition: var(--transition);
+  // margin-bottom: 30px;
+  background-color: #fff;
+height: 100%;
+  .icon {
+      // color: var(--mainColor);
+      // font-size: 25px;
+      // width: 65px;
+      // border: 1px dashed var(--mainColor);
+      // height: 65px;
+      // position: relative;
+      // border-radius: 3px;
+      // transition: var(--transition);
+      // margin: {
+      //     left: auto;
+      //     right: auto;
+      // };
+      color: var(--whiteColor);
+    font-size: 25px;
+    width: 50px;
+    border: 1px solid var(--mainColor);
+    height: 50px;
+    position: relative;
+    border-radius: 50%;
+    background-color: var(--mainColor);
+    transition: var(--transition);
+    margin-left: auto;
+    margin-right: auto;
+  margin-top: -12%;
+      i {
+          position: absolute;
+          left: 0;
+          right: 0;
+          top: 50%;
+          transform: translateY(-50%);
+      }
+  }
+  h3 {
+      transition: var(--transition);
+      margin: {
+          top: 14px;
+          bottom: 2px;
+      }
+      font: {
+          weight: 600;
+          size:18px;
+      }
+  }
+  p {
+      transition: var(--transition);
+      font-size: 15.5px;
+  }
+  .link-btn {
+      position: absolute;
+      right: -20px;
+      bottom: 0;
+      width: 45px;
+      height: 40px;
+      line-height: 44px;
+      text-align: center;
+      box-shadow: 0 0 25px 0 rgba(0, 27, 103, 0.2);
+      border-radius: 50% 0 0 0;
+      opacity: 0;
+      visibility: hidden;
+  }
+  &:hover {
+      transform: translateY(-5px);
+      background-color: var(--mainColor);
+
+      .icon {
+          background-color: var(--whiteColor);
+          border-color: var(--whiteColor);
+          color: var(--mainColor);
+      }
+      h3 {
+          color: var(--whiteColor);
+      }
+      p {
+          color: var(--whiteColor);
+      }
+      .link-btn {
+          background: var(--whiteColor);
+          color: var(--mainColor);
+          opacity: 1;
+          visibility: visible;
+          right: 0;
+      }
+  }
+}
+
 
 /*==============================
 About Area CSS
@@ -2522,6 +2631,7 @@ Contact Area CSS
     }
     label {
         margin-bottom: .5rem;
+        font-size: 13px;
     }
     .btn {
         margin-top: 15px;

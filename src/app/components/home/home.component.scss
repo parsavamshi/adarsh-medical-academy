@@ -275,7 +275,9 @@ height: 200px;
 
 .review{
   background-color: lightblue;
-  padding: 40px 100px 0;
+  // padding: 40px 100px 0;
+  padding: 40px 0 80px 0;
+
   h4{
     margin-bottom: 3rem;
     text-decoration: underline;
@@ -457,4 +459,48 @@ blockquote {
   object-fit: cover;
   border: 3px solid #fff;
   object-position: top;
+}
+
+
+
+
+
+.single-who-we-are{
+  z-index: 1;
+  padding: 30px;
+  position: relative;
+  margin-bottom: 25px;
+  background: var(--whiteColor);
+  transition: var(--transition);
+  border: 1.5px dashed #eeeeee;
+  :before {
+    left: 0;
+    bottom: 0;
+    height: 0;
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    background: var(--mainColor);
+    transition: var(--transition);
+
+  }
+  i{
+    font-size: 50px;
+    color: var(--mainColor);
+    transition: var(--transition);
+    position: absolute;
+    top: -12%
+  }
+  h3{
+    transition: var(--transition);
+    margin-bottom: 15px;
+    margin-top: 23px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  p{
+    font-size: 15.5px;
+    transition: var(--transition);
+  }
 }
