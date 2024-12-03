@@ -8,9 +8,19 @@
   }
 
 }
+p{
+  font-size: 14px;
+}
 .about-content{
   margin-left: 2rem;
+
 }
 .section-title{
   margin: 0 !important;
+}
+
+@media (max-width:768px){
+  .about-content{
+    margin-left: 0rem;
+  }
 }

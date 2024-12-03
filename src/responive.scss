@@ -48,7 +48,7 @@ $value_seven: 1550px;
       }
   }
   p {
-      font-size: 14px;
+      font-size: 13px !important;
   }
   .btn {
       font-size: 13.5px;
@@ -68,18 +68,18 @@ $value_seven: 1550px;
       }
   }
   .section-title {
-      margin-bottom: 40px;
+      margin-bottom: 26px !important;
 
       h4 {
           font-size: 14px;
-          margin-bottom: 14px;
+          margin-bottom: 8px;
       }
       h2 {
           font-size: 25px;
           margin-bottom: 15px;
       }
       p {
-          font-size: 14px;
+          font-size: 13px !important;
           max-width: 100%;
       }
   }
@@ -92,6 +92,55 @@ $value_seven: 1550px;
       };
 
 
+
+
+  }
+  .scroll-mouse{
+    i{
+      img{
+        width: 34px;
+        margin: auto;
+        display: block;
+      }
+    }
+  }
+  .about-area .about-bg{
+    padding: 20px 10px !important;
+    p{
+      font-size: 13px;
+    }
+    .about-content .features-section {
+      .list-title{
+        font-size: 14px;
+        text-align: justify;
+        margin: 10px 0;
+      }
+
+      .features-list li{
+        font-size: 13px;
+      }
+    }
+  }
+  .review{
+    padding: 20px 0 40px 0;
+    h4{
+      font-size: 20px !important;
+    }
+    .testimonial-box{
+      h5{
+        font-size: 16px;
+        margin: 4px 0;
+      }
+      .image {
+        margin: 10px auto !important;
+        width: 80px !important;
+        height: 80px !important;
+        img{
+          width: 73px !important;
+          height: 73px !important ;
+        }
+      }
+    }
   }
 
   .home-slides {
@@ -104,7 +153,7 @@ $value_seven: 1550px;
   }
   .main-banner-text {
       h4 {
-          font-size: 15px;
+          font-size: 14px;
       }
       h1 {
           font-size: 30px;
@@ -125,6 +174,29 @@ $value_seven: 1550px;
           };
       }
   }
+  .acadamic{
+    p{
+      font-size: 13px;
+    }
+    .marketing{
+
+    }
+    .single-box{
+      margin: 20px 0;
+    }
+  }
+  .welcome-area{
+    height: 100%;
+    .row>*{
+      margin: 10px 0;
+    }
+    .row{
+      .col-4{
+        margin: 10px;
+      }
+    }
+  }
+
   .creative-banner-one {
   border-width: 2rem 100vw 0 0;
   }
@@ -141,6 +213,8 @@ $value_seven: 1550px;
           height: 50px;
       }
   }
+
+
   .home-slides {
       .main-banner {
           // padding-bottom: 150px;
@@ -595,8 +669,11 @@ $value_seven: 1550px;
   }
 
   .contact-info {
-      padding: 30px 20px;
+      // padding: 30px 20px;
+      padding: 8px;
+
       height: auto;
+      margin: 10px 0;
 
       ul {
           li {
@@ -609,16 +686,22 @@ $value_seven: 1550px;
       }
   }
   .contact-form {
-  padding: 30px 20px;
+  padding: 20px 16px;
       margin-bottom: 30px;
-
+      .mb-3{
+        margin-bottom: 0.5rem !important;
+      }
       label {
-          font-size: 14px;
+          font-size: 12px;
       }
       form {
           .btn {
-              padding: 11px 25px 10px;
+              padding: 8px 18px 8px;
+              margin: 0 !important;
           }
+      }
+      #message{
+        padding: 8px;
       }
   }
 
@@ -659,7 +742,7 @@ $value_seven: 1550px;
           }
           .blockquote {
               padding: 15px;
-              font-size: 15px;
+              font-size: 14px;
           }
           .author-share {
               .article-author {
@@ -747,6 +830,8 @@ $value_seven: 1550px;
           };
       }
   }
+
+
 
 }
 
@@ -901,7 +986,7 @@ margin-top: 60px;
 @media only #{$media} and ($feature_min : $value_three) and ($feature_max : $value_four) {
 
   body {
-      font-size: 15px;
+      font-size: 14px;
   }
 
   .owl-theme {
@@ -918,10 +1003,10 @@ margin-top: 60px;
       }
   }
   p {
-      font-size: 15px;
+      font-size: 14px;
   }
   .btn {
-      font-size: 15px;
+      font-size: 14px;
   }
   .section-title {
       h4 {
@@ -1091,7 +1176,7 @@ margin-top: 60px;
           font-size: 40px;
       }
       p {
-          font-size: 15px;
+          font-size: 14px;
       }
   }
 
@@ -1100,7 +1185,7 @@ margin-top: 60px;
           label {
               padding: 12px 15px;
               margin-right: 10px;
-              font-size: 15px;
+              font-size: 14px;
           }
       }
   }

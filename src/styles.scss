@@ -56,6 +56,7 @@ p {
 margin-bottom: 0;
 line-height: 1.8;
 // color: #727695;
+
 }
 a {
   cursor: pointer;
@@ -200,6 +201,7 @@ padding-left: 30px;
       // max-width: 635px;
       text-align: justify;
       margin-top: -7px;
+      font-size: 14px;
   }
   h4 {
       color: var(--mainColor);
@@ -934,6 +936,7 @@ padding: 10px 20px;
   // margin-bottom: 30px;
   background-color: #fff;
 height: 100%;
+border-radius: 3px;
   .icon {
       // color: var(--mainColor);
       // font-size: 25px;
@@ -1080,28 +1083,41 @@ About Area CSS
           font-size: 23px;
       }
       p {
-          font-size: 15.5px;
+          font-size: 14px;
       }
   }
-  .features-list {
-      margin-bottom: 10px;
-      // display: flex;
-      // flex-wrap: wrap;
+  .features-section{
+    width: 100%;
+      background: #ffff;
+      padding: 20px 20px 15px 20px;
+      border-radius: 3px;
+    .list-title{
+      font-size: 15px;
+      margin: 1rem;
+    }
+    .features-list {
+        margin-bottom: 10px;
+        // display: flex;
+        // flex-wrap: wrap;
 
-      li {
-          margin-bottom: 10px;
-          // color: #727695;
-          flex: 0 0 50%;
-          // max-width: 50%;
-          font: {
-              size: 15.5px;
-          };
-          i {
-              color: var(--mainColor);
-              margin-right: 7px;
-          }
-      }
+
+
+        li {
+            margin-bottom: 10px;
+            // color: #727695;
+            flex: 0 0 50%;
+            // max-width: 50%;
+            font: {
+                size: 14px;
+            };
+            i {
+                color: var(--mainColor);
+                margin-right: 7px;
+            }
+        }
+    }
   }
+
 }
 .about-video1 {
   position: relative;
@@ -1856,7 +1872,7 @@ iit-jee Area CSS
           font-size: 23px;
       }
       p {
-          font-size: 15.5px;
+          font-size: 14px;
       }
   }
   .features-list {
@@ -2009,7 +2025,7 @@ neet Area CSS
           font-size: 23px;
       }
       p {
-          font-size: 15.5px;
+          font-size: 14px;
       }
   }
   .features-list {

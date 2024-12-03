@@ -22,6 +22,7 @@ export class NavbarComponent {
   }
 
   scrollToTop() {
+    this.classApplied = !this.classApplied;
     (function smoothscroll() {
         const currentScroll = document.documentElement.scrollTop || document.body.scrollTop;
         if (currentScroll > 0) {

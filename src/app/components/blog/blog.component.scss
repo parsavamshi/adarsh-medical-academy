@@ -1,7 +1,22 @@
 
 .blog-area{
+  background-image: url(../../../assets/images/banners/dott.jpg);
+  position: relative;
+    overflow: hidden;
+    background: {
+        // position: center center;
+        // size: cover;
+        repeat: no-repeat;
+    };
+  padding: 50px  10px !important;
+  // background-color: lightgray;
+  // .section-title{
+  //   background-color: #fff;
+  //   padding: 20px;
+  // }
   p{
     font-size: 14px;
+    text-align: justify ;
   }
 }
 .blog-img{
