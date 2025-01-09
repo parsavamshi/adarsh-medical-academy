@@ -112,7 +112,7 @@ export class HomeComponent {
       nav: false,
       dots: true,
       autoplayHoverPause: true,
-      autoplay: false,
+      autoplay: true,
       margin: 30,
       autoplayTimeout: 5000, // Increase this value for a slower slide transition
       smartSpeed: 500,

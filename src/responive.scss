@@ -350,7 +350,12 @@ $value_seven: 1550px;
         top: 92px;
         bottom: 10px;
     };
+    .about-bg{
 
+      background-image: url(./assets/images/banners/about-us-bg.jpg);
+      padding: 40px;
+      border-radius: 20px;
+    }
   }
   // .item-bg{
   //   margin-top: 60px;
